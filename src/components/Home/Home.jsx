@@ -1,3 +1,12 @@
-export default function Home() {
-  return <h1 className="text-3xl font-bold underline">Home</h1>;
+import DarkModeIcon from "../svg/DarkModeIcon";
+
+export default function Home({ toggleDarkMode }) {
+  return (
+    <div>
+      <h1>Home</h1>
+      <button onClick={toggleDarkMode}>
+        <DarkModeIcon />
+      </button>
+    </div>
+  );
 }

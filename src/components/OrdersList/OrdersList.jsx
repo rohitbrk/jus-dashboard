@@ -1,3 +1,12 @@
-export default function OrdersList() {
-  return <h1 className="text-3xl font-bold underline">OrderList</h1>;
+import DarkModeIcon from "../svg/DarkModeIcon";
+
+export default function OrdersList({ toggleDarkMode }) {
+  return (
+    <div>
+      <h1>OrderList</h1>
+      <button onClick={toggleDarkMode}>
+        <DarkModeIcon />
+      </button>
+    </div>
+  );
 }
