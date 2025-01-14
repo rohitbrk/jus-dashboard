@@ -5,27 +5,27 @@ interface ContactsResponse {
 
 const items: ContactsResponse[] = [
   {
-    src: '/public/assets/contact1.png',
+    src: 'assets/contact1.png',
     name: 'Natali Craig',
   },
   {
-    src: '/public/assets/contact2.png',
+    src: 'assets/contact2.png',
     name: 'Drew Cano',
   },
   {
-    src: '/public/assets/contact3.png',
+    src: 'assets/contact3.png',
     name: 'Orlando Diggs',
   },
   {
-    src: '/public/assets/contact4.png',
+    src: 'assets/contact4.png',
     name: 'Andi Lane',
   },
   {
-    src: '/public/assets/contact5.png',
+    src: 'assets/contact5.png',
     name: 'Kate Morrison',
   },
   {
-    src: '/public/assets/contact6.png',
+    src: 'assets/contact6.png',
     name: 'Koray Okumus',
   },
 ];

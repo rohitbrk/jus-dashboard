@@ -6,27 +6,27 @@ interface ActivityResponse {
 
 const items: ActivityResponse[] = [
   {
-    src: '/public/assets/activities1.png',
+    src: 'assets/activities1.png',
     message: 'You have a bug that needs to be fixed.',
     time: 'Just Now',
   },
   {
-    src: '/public/assets/activities2.png',
+    src: 'assets/activities2.png',
     message: 'Released a new version',
     time: '59 minutes ago',
   },
   {
-    src: '/public/assets/activities3.png',
+    src: 'assets/activities3.png',
     message: 'Submitted a bug',
     time: '12 hours ago',
   },
   {
-    src: '/public/assets/activities4.png',
+    src: 'assets/activities4.png',
     message: 'Modified A data in Page X',
     time: 'Today, 11:59 AM',
   },
   {
-    src: '/public/assets/activities5.png',
+    src: 'assets/activities5.png',
     message: 'Deleted a page in Project X',
     time: 'Feb 2, 2023',
   },

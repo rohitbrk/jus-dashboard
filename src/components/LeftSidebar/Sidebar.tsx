@@ -197,7 +197,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isCollapsed, toggleCollapse }) => {
           <div className="p-4 flex flex-col justify-between flex-grow">
             <div className="flex items-center gap-2">
               <img height={30} width={30} className="rounded-full" src="assets/profile.png" />
-              <span>RohitB</span>
+              <span>ByeWind</span>
             </div>
             <div className="mt-6">
               <div className="flex items-center gap-4">

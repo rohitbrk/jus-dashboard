@@ -8,7 +8,7 @@ const MapChart = () => {
   return (
     <div>
       <div>
-        <img src="public\assets\worldmap.png" />
+        <img src="assets/worldmap.png" />
       </div>
       {data.map((item, i) => (
         <div key={i}>

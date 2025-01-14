@@ -80,7 +80,7 @@ const data: Order[] = [
     address: 'Meadow Lane Oakland',
     date: 'Just now',
     status: 'In Progress',
-    avatar: '/public/assets/contact1.png',
+    avatar: 'assets/contact1.png',
   },
   {
     selected: false,
@@ -91,7 +91,7 @@ const data: Order[] = [
     address: 'Larry San Francisco',
     date: 'A minute ago',
     status: 'Complete',
-    avatar: '/public/assets/contact5.png',
+    avatar: 'assets/contact5.png',
   },
   {
     selected: false,
@@ -102,7 +102,7 @@ const data: Order[] = [
     address: 'Bagwell Avenue Ocala',
     date: '1 hour ago',
     status: 'Pending',
-    avatar: '/public/assets/contact2.png',
+    avatar: 'assets/contact2.png',
   },
   {
     selected: false,
@@ -113,7 +113,7 @@ const data: Order[] = [
     address: 'Washburn Baton Rouge',
     date: 'Yesterday',
     status: 'Approved',
-    avatar: '/public/assets/contact3.png',
+    avatar: 'assets/contact3.png',
   },
   {
     selected: false,
@@ -124,7 +124,7 @@ const data: Order[] = [
     address: 'Nest Lane Olivette',
     date: 'Feb 2, 2023',
     status: 'Rejected',
-    avatar: '/public/assets/contact4.png',
+    avatar: 'assets/contact4.png',
   },
 ];
 
