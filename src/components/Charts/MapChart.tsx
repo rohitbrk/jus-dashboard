@@ -1,8 +1,8 @@
 const data = [
   { id: 1, location: 'NewYork', revenue: '72K' },
-  { id: 2, location: 'San Francisco', revenue: '72K' },
-  { id: 3, location: 'NewYork', revenue: '72K' },
-  { id: 4, location: 'NewYork', revenue: '72K' },
+  { id: 2, location: 'San Francisco', revenue: '39K' },
+  { id: 3, location: 'NewYork', revenue: '25K' },
+  { id: 4, location: 'NewYork', revenue: '61K' },
 ];
 const MapChart = () => {
   return (

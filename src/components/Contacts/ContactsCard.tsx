@@ -33,8 +33,8 @@ const items: ContactsResponse[] = [
 const ContactsCard = () => {
   return (
     <div className="flex flex-col gap-1">
-      {items.map((item) => (
-        <div className="flex items-center gap-2 mt-2">
+      {items.map((item, i) => (
+        <div key={i} className="flex items-center gap-2 mt-2">
           <div className="flex flex-col gap-1 justify-center items-center">
             <img src={item.src} className="h-6 w-6 flex items-center justify-center rounded-full" />
           </div>

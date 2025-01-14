@@ -81,8 +81,8 @@ const items: NotificationResponse[] = [
 const NotificationsCard = () => {
   return (
     <div className="flex flex-col gap-4">
-      {items.map((item) => (
-        <div className="flex items-start gap-2 mt-2">
+      {items.map((item, i) => (
+        <div key={i} className="flex items-start gap-2 mt-2">
           <div className="h-6 w-6 flex items-center justify-center">{item.icon}</div>
           <div className="flex flex-col gap-1">
             <p className="line-clamp-1 text-sm text-black">{item.message}</p>

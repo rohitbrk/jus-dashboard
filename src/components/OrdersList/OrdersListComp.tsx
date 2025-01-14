@@ -203,7 +203,7 @@ const OrdersListComp: React.FC = () => {
             <input
               type="text"
               placeholder="Search"
-              className="w-full py-1 pl-8 pr-8 bg-transparent rounded-lg text-sm text-gray-700 dark:text-gray-200 outline-none focus:ring-2 focus:ring-gray-300 dark:focus:ring-gray-600"
+              className="w-full py-1 pl-8 pr-8 bg-gray-100 rounded-lg text-sm text-gray-700 dark:text-gray-200 outline-none focus:ring-2 focus:ring-gray-300 dark:focus:ring-gray-600"
             />
           </div>
         </div>
