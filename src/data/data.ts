@@ -32,22 +32,6 @@ const ActivityItems: ActivityResponse[] = [
   },
 ];
 
-const BarChartData = {
-  labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
-  datasets: [
-    {
-      label: 'Actuals',
-      data: [12, 15, 13, 20, 10, 14],
-      backgroundColor: '#A8C5DA',
-    },
-    {
-      label: 'Projections',
-      data: [8, 7, 5, 10, 5, 4],
-      backgroundColor: '#cfdfeb',
-    },
-  ],
-};
-
 const DashboardStatsData = [
   {
     title: 'Customers',
@@ -79,4 +63,4 @@ const DashboardStatsData = [
   },
 ];
 
-export { ActivityItems, BarChartData, DashboardStatsData };
+export { ActivityItems, DashboardStatsData };
