@@ -6,7 +6,7 @@ const data = [
 ];
 const MapChart = () => {
   return (
-    <div>
+    <div className="mr-6">
       <div>
         <img src="assets/worldmap.png" />
       </div>
